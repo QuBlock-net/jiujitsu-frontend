@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="textarea">
         <p> 
-          <img src="./assets/stickerBW.png" className="banner" alt="logo"/>
+          <img src="./assets/logo512.png" className="banner" alt="logo"/>
         </p>
         <div className="box">
           <div className="box-header">
