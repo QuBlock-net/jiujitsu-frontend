@@ -79,7 +79,7 @@ function App() {
                   segments than they are and remains open to dialogue.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="6">
+              <Accordion.Item eventKey="7">
                 <Accordion.Header>Why "Jiujitsu"?</Accordion.Header>
                 <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank">correct spelling</a> for the JIT pun
                 </Accordion.Body>
