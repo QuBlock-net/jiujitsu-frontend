@@ -41,8 +41,8 @@ function App() {
                 <Accordion.Header>What is "just-in-time liquidity" ?</Accordion.Header>
                 <Accordion.Body>At its core, JITL is providing just enough liquidity to sustain a specific order (or group of orders). 
                   In the Uniswap V3 context, it means finding bigger-than-average swaps (or aggregate similar ones in order to "build" a bigger one),
-                  providing adequate liquidity before it and remove it after. You can find a Dune dashboard from ChainsightAnalytics
-                  <a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV">here</a>
+                  providing adequate liquidity before it and remove it after. You can find a Dune dashboard from ChainsightAnalytics 
+                  <a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV"> here</a>
                  </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -64,15 +64,17 @@ function App() {
               </Accordion.Item>
               <Accordion.Item eventKey="5">
                 <Accordion.Header>What's the user incentive?</Accordion.Header>
-                <Accordion.Body>Jiujitsu has <b>no ico</b>. The profit is going back to the Jiujitsu reserve in order to compound of following JIT operations.
+                <Accordion.Body>Jiujitsu has <b>no ico</b>.
+                <br />The profit of JITL operations is going back to the Jiujitsu reserve in order to compound.
                 By depositing into the Jiujitsu reserve, you're entitled to a share of it, materialized as the $JITL tokens you're receiving.
-                Those can be later burned to get back your initial investment plus your share of the fees collected. Jiujitsu is not providing a secondary market for $JITL
-                at the moment.</Accordion.Body>
+                Those can be later burned to get back your initial investment plus your share of the fees collected, in the same way Uniswap V2 LP works.
+                Jiujitsu is not providing a secondary market for $JITL at the moment.</Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="6">
                 <Accordion.Header>What are the risks?</Accordion.Header>
-                <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets; Bot risk: jiujitsu-bot.eth; gas/flashbot wat risk: as of writing,
-                  only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV">0x9799 and 0xa57b</a>), using flashbots.
+                <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets
+                  <br/>Bot risk: jiujitsu-bot.eth uses the Reserve assets
+                  <br/>Gas/flashbot war risk: as of writing, only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV">0x9799 and 0xa57b</a>), using flashbots.
                   having a third actor in "their space" might trigger a war to get to the top spot, decreasing everyone's return. We try to focus on different
                   segments than they are and remains open to dialogue.
                 </Accordion.Body>
