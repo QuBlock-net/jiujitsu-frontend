@@ -73,7 +73,9 @@ function App() {
 
               <Accordion.Item eventKey="6">
                 <Accordion.Header>What are the risks?</Accordion.Header>
-                <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets
+                <Accordion.Body>Inventory risk: depending on the target pool, we might need to swap eth for 2 others assets. Accumulating non-ETH asset "locked"
+                  in negative ROI position is therefore a risk
+                  <br/>Smart contract risk: the Reserve holds Jiujitsu assets
                   <br/>Bot risk: jiujitsu-bot.eth uses the Reserve assets
                   <br/>Gas/flashbot war risk: as of writing, only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank" rel="noreferrer">0x9799 and 0xa57b</a>), using flashbots.
                   having a third actor in "their space" might trigger a war to get to the top spot, decreasing everyone's return. We try to focus on different
