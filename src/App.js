@@ -27,7 +27,7 @@ function App() {
           <div className="box-body">
             <Accordion flush>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>What is JiuJITsu ?</Accordion.Header>
+                <Accordion.Header>What is Jiujitsu ?</Accordion.Header>
                 <Accordion.Body>Jiujitsu is a collective just-in-time liquidity strategy on Ethereum</Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
