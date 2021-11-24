@@ -70,6 +70,7 @@ function App() {
                 Those can be later burned to get back your initial investment plus your share of the fees collected, in the same way Uniswap V2 LP works.
                 Jiujitsu is not providing a secondary market for $JITL at the moment.</Accordion.Body>
               </Accordion.Item>
+              
               <Accordion.Item eventKey="6">
                 <Accordion.Header>What are the risks?</Accordion.Header>
                 <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets
@@ -79,11 +80,13 @@ function App() {
                   segments than they are and remains open to dialogue.
                 </Accordion.Body>
               </Accordion.Item>
+
               <Accordion.Item eventKey="7">
                 <Accordion.Header>Why "Jiujitsu"?</Accordion.Header>
                 <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank">correct spelling</a> for the JIT pun
                 </Accordion.Body>
               </Accordion.Item>
+
             </Accordion>
           </div>
 
