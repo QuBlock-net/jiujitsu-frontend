@@ -83,7 +83,7 @@ function App() {
 
               <Accordion.Item eventKey="7">
                 <Accordion.Header>Why "Jiujitsu"?</Accordion.Header>
-                <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank">correct spelling</a> for the JIT pun
+                <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank">correct spelling</a> for the JIT pun.
                 </Accordion.Body>
               </Accordion.Item>
 
