@@ -70,14 +70,14 @@ function App() {
                 Those can be later burned to get back your initial investment plus your share of the fees collected, in the same way Uniswap V2 LP works.
                 Jiujitsu is not providing a secondary market for $JITL at the moment.</Accordion.Body>
               </Accordion.Item>
-              
+
               <Accordion.Item eventKey="6">
                 <Accordion.Header>What are the risks?</Accordion.Header>
                 <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets
                   <br/>Bot risk: jiujitsu-bot.eth uses the Reserve assets
                   <br/>Gas/flashbot war risk: as of writing, only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank">0x9799 and 0xa57b</a>), using flashbots.
                   having a third actor in "their space" might trigger a war to get to the top spot, decreasing everyone's return. We try to focus on different
-                  segments than they are and remains open to dialogue.
+                  segments than they are and remain open to dialogue.
                 </Accordion.Body>
               </Accordion.Item>
 
