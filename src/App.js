@@ -42,7 +42,7 @@ function App() {
                 <Accordion.Body>At its core, JITL is providing just enough liquidity to sustain a specific order (or group of orders). 
                   In the Uniswap V3 context, it means finding bigger-than-average swaps (or aggregate similar ones in order to "build" a bigger one),
                   providing adequate liquidity before it and remove it after. You can find a Dune dashboard from ChainsightAnalytics 
-                   <a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank">here</a>
+                   <a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank" rel="noreferrer">here</a>
                  </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -75,7 +75,7 @@ function App() {
                 <Accordion.Header>What are the risks?</Accordion.Header>
                 <Accordion.Body>Smart contract risk: the Reserve holds Jiujitsu assets
                   <br/>Bot risk: jiujitsu-bot.eth uses the Reserve assets
-                  <br/>Gas/flashbot war risk: as of writing, only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank">0x9799 and 0xa57b</a>), using flashbots.
+                  <br/>Gas/flashbot war risk: as of writing, only 2 MEV-BOT are running succesfull JITL strategies (<a href="https://dune.xyz/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV" target="_blank" rel="noreferrer">0x9799 and 0xa57b</a>), using flashbots.
                   having a third actor in "their space" might trigger a war to get to the top spot, decreasing everyone's return. We try to focus on different
                   segments than they are and remain open to dialogue.
                 </Accordion.Body>
@@ -83,7 +83,7 @@ function App() {
 
               <Accordion.Item eventKey="7">
                 <Accordion.Header>Why "Jiujitsu"?</Accordion.Header>
-                <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank">correct spelling</a> for the JIT pun.
+                <Accordion.Body>We had to sacrifice the <a href="https://en.wikipedia.org/wiki/Jujutsu#Etymology" target="_blank" rel="noreferrer">correct spelling</a> for the JIT pun.
                 </Accordion.Body>
               </Accordion.Item>
 
